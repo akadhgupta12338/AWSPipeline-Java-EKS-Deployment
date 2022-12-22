@@ -18,7 +18,7 @@ spec:
       containers:
       - name: java-app
         #image: $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$IMAGE_TAG
-        image: 239786103795.dkr.ecr.ap-south-1.amazonaws.com/java-tomcat-app:latest
+        image: 398382852942.dkr.ecr.ap-south-1.amazonaws.com/aws_ecr:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
